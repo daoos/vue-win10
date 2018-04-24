@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import "./assets/less/tiles.less";
-import VueExtend from './vue-extend'
+import VueExtend from './Vue-extend'
 import router from './router'
 import axios from 'axios'
 

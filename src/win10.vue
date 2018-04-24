@@ -27,7 +27,6 @@
                     </template>
                 </div>
                 <div class="blocks">
-                    <!--
                     <win10-tile-area class="tile-area-scheme-dark">
                         <win10-tile-group width="2">
                             <win10-tile-title>General</win10-tile-title>
@@ -181,7 +180,6 @@
                             </win10-tile-container>
                         </win10-tile-group>
                     </win10-tile-area>
-                    -->
                 </div>
                 <div id="win10-menu-switcher"></div>
             </div>
@@ -219,17 +217,15 @@
                 </div>
             </div>
         </div>
-        <!--
         <div class="wrapp" >
             <div class="text">
-                <h1>Win 腾市</h1>
+                <h1>DAOOS</h1>
             </div>
             <div class="logo">
                 <span class="top-left"></span>
                 <span class="bottom-right"></span>
             </div>
         </div>
-        -->
     </div>
 </template>
 <style>
@@ -505,7 +501,6 @@
         data () {
             return {
                 win10Menu:[
-                    /*
                     {
                         "name":"API测试",
                         "iconClass":"red icon fa fa-wrench fa-fw",
@@ -552,7 +547,6 @@
                         "name":"关闭",
                         "iconClass":"black icon fa fa-power-off fa-fw"
                     }
-                    */
                 ],
                 hiddenWin10Menu:true,
                 onNewMsg:false,
