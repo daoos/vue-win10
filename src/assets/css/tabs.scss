@@ -1,0 +1,46 @@
+/* tabs */
+.card > .nav-tabs .nav-link {padding: .75rem 1.25rem}
+.nav-pills.nav-sm > .nav-link {padding: 6px 12px}
+.nav-pills.nav-sm .btn {padding: 6px 12px}
+.nav-pills.nav-xs > .nav-link {padding: 4px 10px;font-size: .75rem}
+.nav-pills.nav-xs .btn {padding: 4px 10px}
+.nav-pills.nav-rounded-circle > .nav-link {border-radius: 20px}
+.nav-sm > .nav-pills > .nav-link {padding: 6px 12px}
+.nav-sm > .nav-pills .btn {padding: 6px 12px}
+.nav-xs > .nav-pills > .nav-link {padding: 4px 10px;font-size: .75rem}
+.nav-xs > .nav-pills .btn {padding: 4px 10px}
+.nav-line {
+  border-color: #e9ebef;
+  &.nav-icon i { color: #aaa }
+  &.nav-icon > .nav-link.active i { color: #555555 }
+  > .nav-item { margin-left: -1px }
+  > .nav-link {
+    transition: all .1s ease-in-out;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    margin-left: -1px;
+    &:focus {
+      border-width: 0;
+      background-color: transparent
+    }
+    &:hover,
+    &.active {
+      color: currentColor;
+      border-bottom: 2px solid currentColor !important;
+      background-color: transparent
+    }
+    &:hover i,
+    &.active i {
+      color: currentColor
+    }
+  }
+}
+.nav-justified > .nav-link {
+  position: relative;
+  text-align: center;
+  flex-grow: 1
+}
+.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto
+}

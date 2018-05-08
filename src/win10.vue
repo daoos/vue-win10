@@ -28,157 +28,7 @@
                 </div>
                 <div class="blocks">
                     <win10-tile-area class="tile-area-scheme-dark">
-                        <win10-tile-group width="2">
-                            <win10-tile-title>General</win10-tile-title>
-                            <win10-tile-container>
-                                <win10-tile class="bg-indigo fg-white">
-                                    <win10-tile-content type="iconic">
-                                        <span class="icon fa fa-plus "></span>
-                                    </win10-tile-content>
-                                    <win10-tile-label>Calendar</win10-tile-label>
-                                </win10-tile>
-                                <win10-tile>
-                                    <win10-tile-content type="iconic">
-                                        <i class="fa fa-pencil-square-o"></i>
-                                    </win10-tile-content>
-                                    <win10-tile-label>Inbox</win10-tile-label>
-                                </win10-tile>
 
-                                <win10-tile size="large">
-                                    <win10-tile-content type="iconic">
-                                        <div class="padding10" id="weather_bg">
-                                            <h1 id="weather_icon" style="font-size: 6em;position: absolute; top: 10px; right: 10px;"></h1>
-                                            <h1 id="city_temp"></h1>
-                                            <h2 id="city_name" class="text-light"></h2>
-                                            <h4 id="city_weather"></h4>
-                                            <p id="city_weather_daily"></p>
-                                            <p class="no-margin text-shadow">Pressure: <span class="text-bold" id="pressure"></span> mm</p>
-                                            <p class="no-margin text-shadow">Ozone: <span class="text-bold" id="ozone"></span></p>
-                                            <p class="no-margin text-shadow">Wind bearing: <span class="text-bold" id="wind_bearing"></span></p>
-                                            <p class="no-margin text-shadow">Wind speed: <span class="text-bold" id="wind_speed">0</span> m/s</p>
-                                        </div>
-                                    </win10-tile-content>
-                                    <win10-tile-label>Weather</win10-tile-label>
-                                </win10-tile>
-                            </win10-tile-container>
-                        </win10-tile-group>
-                        <win10-tile-group width="2">
-                            <win10-tile-title>Images</win10-tile-title>
-                            <win10-tile-container>
-                                <win10-tile size="wide">
-                                    <win10-tile-content type="slideLeft">
-                                        <a href="http://google.com/search?q=bear" class="live-slide"><img src="/static/images/1.jpg" data-role="fitImage" data-format="fill"></a>
-                                        <a href="http://google.com/search?q=cat" class="live-slide"><img src="/static/images/2.jpg" data-role="fitImage" data-format="fill"></a>
-                                        <a href="http://google.com/search?q=dog" class="live-slide"><img src="/static/images/3.jpg" data-role="fitImage" data-format="fill"></a>
-                                        <a href="http://google.com/search?q=eagle" class="live-slide"><img src="/static/images/4.jpg" data-role="fitImage" data-format="fill"></a>
-                                        <a href="http://google.com/search?q=fox" class="live-slide"><img src="/static/images/5.jpg" data-role="fitImage" data-format="fill"></a>
-                                    </win10-tile-content>
-                                    <win10-tile-label>Gallery</win10-tile-label>
-                                </win10-tile>
-                                <win10-tile>
-                                    <win10-tile-content type="slideUpDown">
-                                        <div class="live-slide"><img src="/static/images/me.jpg" data-role="fitImage" data-format="fill"></div>
-                                        <div class="live-slide"><img src="/static/images/spface.jpg" data-role="fitImage" data-format="fill"></div>
-                                    </win10-tile-content>
-                                    <win10-tile-label>Photos</win10-tile-label>
-                                </win10-tile>
-                                <win10-tile size="small">
-                                    <win10-tile-content type="iconic">
-                                        <i class="icon fa fa-video-camera"></i>
-                                    </win10-tile-content>
-                                </win10-tile>
-                                <win10-tile size="small">
-                                    <win10-tile-content type="iconic">
-                                        <i class="icon fa fa-gamepad"></i>
-                                    </win10-tile-content>
-                                </win10-tile>
-                                <win10-tile size="small">
-                                    <win10-tile-content type="iconic">
-                                        <i class=" fa fa-headphones"></i>
-                                    </win10-tile-content>
-                                    <win10-tile-label>gamepad</win10-tile-label>
-                                </win10-tile>
-                                <win10-tile size="small">
-                                    <win10-tile-content type="iconic">
-                                        <i class=" fa fa-lock"></i>
-                                    </win10-tile-content>
-                                    <win10-tile-label>headphones</win10-tile-label>
-                                </win10-tile>
-                                <win10-tile size="wide">
-                                    <win10-tile-content type="image-set">
-                                        <img src="/static/images/jeki_chan.jpg">
-                                        <img src="/static/images/shvarcenegger.jpg">
-                                        <img src="/static/images/vin_d.jpg">
-                                        <img src="/static/images/jolie.jpg">
-                                        <img src="/static/images/jek_vorobey.jpg">
-                                    </win10-tile-content>
-                                </win10-tile>
-                            </win10-tile-container>
-                        </win10-tile-group>
-                        <win10-tile-group>
-                            <win10-tile-title>Office</win10-tile-title>
-                            <win10-tile size="small">
-                                <win10-tile-content type="iconic">
-                                    <img src="/static/images/outlook.png" class="icon">
-                                </win10-tile-content>
-                            </win10-tile>
-                            <win10-tile size="small">
-                                <win10-tile-content type="iconic">
-                                    <img src="/static/images/word.png" class="icon">
-                                </win10-tile-content>
-                            </win10-tile>
-                            <win10-tile size="small">
-                                <win10-tile-content type="iconic">
-                                    <img src="/static/images/excel.png" class="icon">
-                                </win10-tile-content>
-                            </win10-tile>
-                            <win10-tile size="small">
-                                <win10-tile-content type="iconic">
-                                    <img src="/static/images/access.png" class="icon">
-                                </win10-tile-content>
-                            </win10-tile>
-                            <win10-tile size="small">
-                                <win10-tile-content type="iconic">
-                                    <img src="/static/images/powerpoint.png" class="icon">
-                                </win10-tile-content>
-                            </win10-tile>
-                        </win10-tile-group>
-                        <win10-tile-group>
-                            <win10-tile-title>Games</win10-tile-title>
-                            <win10-tile-container>
-                                <win10-tile class="bg-">
-                                    <win10-tile-content>
-                                        <img src="/static/images/grid2.jpg" data-role="fitImage" data-format="square">
-                                    </win10-tile-content>
-                                </win10-tile>
-                                <win10-tile size="small">
-                                    <win10-tile-content>
-                                        <img src="/static/images/Battlefield_4_Icon.png" data-role="fitImage" data-format="square" data-frame-color="bg-steel">
-                                    </win10-tile-content>
-                                </win10-tile>
-                                <win10-tile size="small">
-                                    <win10-tile-content>
-                                        <img src="/static/images/Crysis-2-icon.png" data-role="fitImage" data-format="square" data-frame-color="bg-steel">
-                                    </win10-tile-content>
-                                </win10-tile>
-                                <win10-tile size="small">
-                                    <win10-tile-content>
-                                        <img src="/static/images/WorldofTanks.png" data-role="fitImage" data-format="square" data-frame-color="bg-steel">
-                                    </win10-tile-content>
-                                </win10-tile>
-                                <win10-tile size="small">
-                                    <win10-tile-content>
-                                        <img src="/static/images/halo.png" data-role="fitImage" data-format="square">
-                                    </win10-tile-content>
-                                </win10-tile>
-                                <win10-tile size="wide">
-                                    <win10-tile-content type="iconic">
-                                        <img src="/static/images/x-box.png" data-role="fitImage" data-format="square">
-                                    </win10-tile-content>
-                                    <win10-tile-label>X-Box Live</win10-tile-label>
-                                </win10-tile>
-                            </win10-tile-container>
-                        </win10-tile-group>
                     </win10-tile-area>
                 </div>
                 <div id="win10-menu-switcher"></div>
@@ -490,7 +340,7 @@
     import Vue from 'vue'
     Vue.use(Win10Tile)
     var timer = null;
-
+    /*更新菜单*/
     window.updateSystemMemu = function () {
         // 绑定更新菜单
         Win10.updateMenu();
@@ -656,7 +506,7 @@
                     layerObject.iconClass = iconClass;
                     iconStr = '<i class="'+iconClass+'" />';
                 }
-                //console.log(offset);
+                console.log(offset);
                 short.layer = layerObject;
                 var that = this;
                 var index = layerObject.index = this.taskBarActove = layer.open({
